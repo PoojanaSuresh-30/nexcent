@@ -1,0 +1,380 @@
+*
+{
+     box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+}
+
+.home
+{
+    justify-content: center;
+    align-items: center;
+    
+}
+ .hero
+{
+    background-color: #F5F7FA;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 25vh;
+    padding: 15vh;
+}
+
+ .home .hero .hero1
+{
+    padding: 20px;
+    justify-content: flex-start;
+}
+
+.hero1 h3{
+    font-weight: 600;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4D4D4D;
+    line-height: 1.2;
+}
+.hero1 h2{
+    font-weight: 600;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4CAF4F;
+     line-height: 1.2;
+}
+
+.hero1 p{
+    color: #717171;
+    line-height: 1.2;
+}
+
+.hero1 button{
+padding: 10px;
+margin-top: 20px;
+background-color: #4CAF4F;
+border-radius: 8px;
+width: 13vh;
+border: none;
+height: 5vh;
+color: #FFFFFF;
+}
+
+.hero .hero2
+{
+    justify-content: end;
+    margin-right: 25vh;
+    
+}
+
+.clients
+{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.clients h4{
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #4D4D4D;
+}
+
+.clients p{
+    color: #717171;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.2;
+}
+
+.clientlist ul{
+    padding: 50px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.clientlist ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.manage
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.manage h3{
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #4D4D4D;
+    line-height: 1.2;
+}
+
+.manage p{
+    padding: 20px;
+}
+
+.managefeature
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 12rem;
+    padding: 80px;
+}
+
+.managefeature .member h3
+{
+font-size: 20px;
+font-weight: 700;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.2;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+
+.managefeature .member p{
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
+.unseen
+{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 80px 80px 10px 80px;
+    gap: 20px;
+  
+}
+
+.unseen img{
+    height: 500px;
+    width: 500px;
+}
+
+.unseen h3{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    max-width: 25rem;
+    line-height: 1.2;
+}
+
+.unseen p{
+    text-align: justify;
+     font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    line-height: 1.6;
+    padding-top: 10px;
+}
+
+.unseen button
+{
+    background-color: #4CAF4F;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    transition: 0.2s;
+    color: #FFFFFF;
+
+}
+
+.unseen button:hover{
+    transform: scale(1.1);
+}
+
+.home1
+{
+    background-color: #F5F7FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15rem;
+    
+}
+
+
+.home1 h3{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+.home1 h2{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #4CAF4F;
+}
+
+.helpfeature
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.helpfeature ul{
+    list-style-type: none;
+}
+.helpfeature ul li 
+{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.customers {
+    background-color: #F5F7FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding:8rem;
+
+}
+.customers  img
+{
+    height: 200px;
+    width: 200px;
+}
+
+.customers h3{
+    color:   #4CAF4F;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    padding:10px 0px 10px 0px;
+}
+.customers p{
+    color: #717171;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 1.6;
+    
+}
+
+.customers ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    gap: 2rem;
+}
+
+.customers ul li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    color: #4CAF4F;
+}
+
+.customers ul li img{
+    height: 20px;
+    width:20px;
+}
+
+.marketing
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.marketing .market1 h3{
+    color: #4D4D4D;
+     font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.6;
+}
+.marketing .market1 p
+{
+  color: #4D4D4D;
+     font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 1.6;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: scale(0.7);
+}
+
+.feature
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    gap: 12rem;
+    /* left: -50rem; */
+    margin-left: -15rem;
+}
+
+.feature .fea{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+}
+
+.feature .card
+{
+    background-color: #F5F7FA;
+    padding: 50px;
+    width: 350px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top:17rem;
+    left: 12.5rem;
+}
+
+.feature .card p{
+
+      color: #4D4D4D;
+     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+
+}
+
+.feature .card a{
+    color: #4CAF4F;
+    text-decoration: none;
+      font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.6;
+    padding-top: 15rem;
+  
+
+}
+
+.feature .card .readmore
+{
+   height: 1.2rem;
+   width: 1.2rem;
+    
+}
+
+
+
+
+
+
