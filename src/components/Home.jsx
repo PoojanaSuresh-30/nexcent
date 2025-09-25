@@ -110,7 +110,7 @@ function Home()
                     <img src={Rafiki} alt="unseenimage" />
                 </div>
 
-                <div>
+                <div className="unseen1">
                     <h3>The unseen of spending three years at Pixelgrade</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae a minus debitis exercitationem fugit impedit maxime saepe harum accusantium. Minus consequatur reiciendis ea molestiae corrupti dignissimos aperiam quas! Pariatur, vitae.
                     Temporibus voluptate accusantium quidem minima, animi, qui natus, debitis tenetur laborum exercitationem doloribus ducimus ullam possimus distinctio dolor eveniet. Impedit sapiente officia consequuntur laborum incidunt neque atque consequatur amet maiores.</p>
