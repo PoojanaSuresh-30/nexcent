@@ -12,8 +12,8 @@ function Navbar()
     return(
         <section >
             <div className="navbar">
-           
-              <div className="logo">
+        
+            <div className="logo">
                 <img src={Logo} alt="Logo" />
             </div>
             <div className="links">
@@ -29,7 +29,10 @@ function Navbar()
                 </ul>
 
             </div>
-            </div>
+
+           </div>
+            
+           
         
               
         
