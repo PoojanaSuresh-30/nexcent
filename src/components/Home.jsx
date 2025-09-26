@@ -167,10 +167,10 @@ function Home()
             </div>
 
 
-              <div className="unseen">
+              <div className="site">
 
                 <div>
-                    <img src={pana} alt="unseenimage" />
+                    <img src={pana} alt="sitefooter" />
                 </div>
 
                 <div>

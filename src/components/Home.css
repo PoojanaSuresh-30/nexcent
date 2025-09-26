@@ -197,13 +197,68 @@ margin-left: 12%;
     transform: scale(1.1);
 }
 
+
+.site
+{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 5% 20% 2% 20%;
+    gap:25%;
+  
+}
+
+.site img{
+    height:800%;
+    width: 800%;
+}
+/* 
+.site1
+{
+margin-left: 12%;    
+} */
+.site h3{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    max-width: 25rem;
+    line-height: 1.2;
+}
+
+.site p{
+    text-align: justify;
+     font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    line-height: 1.6;
+    padding-top: 10px;
+}
+
+.site button
+{
+    background-color: #4CAF4F;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    transition: 0.2s;
+    color: #FFFFFF;
+
+}
+
+.site button:hover{
+    transform: scale(1.1);
+}
+
+
 .home1
 {
     background-color: #F5F7FA;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:15rem;
+    gap:5%;
+    padding:2%;
+    width: 100%;
     
 }
 
@@ -375,6 +430,460 @@ margin-left: 12%;
    height: 1.2rem;
    width: 1.2rem;
     
+}
+
+
+@media (orientation: portrait) and (max-width:432px) and  (min-width:344px)
+{
+    *
+{
+     box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+    .home
+{
+    /* justify-content: center;
+    align-items: center; */
+     /* max-width: 397px; */
+   
+     overflow-x: hidden;
+    
+}
+ .hero
+{
+    background-color: #F5F7FA;
+    display: flex;
+      width: fit-content;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 10px;
+    padding: 10%;
+     width:fit-content;
+
+   
+}
+
+ .home .hero .hero1
+{
+    padding: 4%;
+    justify-content: flex-start;
+    transform: scale(0.8);
+    /* margin-left: -20px; */
+}
+
+.hero1 h3{
+    font-weight: 400;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4D4D4D;
+    line-height: 1.2;
+}
+.hero1 h2{
+    font-weight: 400;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4CAF4F;
+     line-height: 1.2;
+}
+
+.hero1 p{
+    color: #717171;
+    line-height: 1.2;
+}
+
+.hero1 button{
+padding: 10px;
+margin-top: 20px;
+background-color: #4CAF4F;
+border-radius: 8px;
+width: 13vh;
+border: none;
+height: 5vh;
+font-weight: 400;
+color: #FFFFFF;
+/* transform: scale(0.9); */
+}
+
+.hero .hero2
+{
+    /* justify-content: end; */
+    /* margin-right: 5vh; */
+     transform: scale(0.8); 
+}
+
+.hero .hero2 img
+{
+    height: 200px;
+    width: 200px;
+}
+
+.clients
+{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.clients h4{
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #4D4D4D;
+}
+
+.clients p{
+    color: #717171;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.2;
+}
+
+.clientlist ul{
+    padding: 5%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.clientlist ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.manage
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.manage h3{
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #4D4D4D;
+    line-height: 1.2;
+}
+
+.manage p{
+    padding: 2%;
+}
+
+.managefeature
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 5%;
+    padding: 2%;
+}
+
+.managefeature .member h3
+{
+font-size: 20px;
+font-weight: 700;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.2;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+
+.managefeature .member p{
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
+.unseen
+{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 5% 20% 2% 20%;
+    gap:15%;
+  
+}
+
+.unseen img{
+    height:800%;
+    width: 800%;
+}
+
+.unseen1
+{
+margin-left: 12%;    
+}
+.unseen h3{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    max-width: 25rem;
+    line-height: 1.2;
+}
+
+.unseen p{
+    text-align: justify;
+     font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    line-height: 1.6;
+    padding-top: 10px;
+}
+
+.unseen button
+{
+    background-color: #4CAF4F;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    transition: 0.2s;
+    color: #FFFFFF;
+
+}
+
+.unseen button:hover{
+    transform: scale(1.1);
+}
+
+
+.site
+{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 5% 20% 2% 20%;
+    gap:25%;
+  
+}
+
+.site img{
+    height:800%;
+    width: 800%;
+}
+/* 
+.site1
+{
+margin-left: 12%;    
+} */
+.site h3{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    max-width: 25rem;
+    line-height: 1.2;
+}
+
+.site p{
+    text-align: justify;
+     font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    line-height: 1.6;
+    padding-top: 10px;
+}
+
+.site button
+{
+    background-color: #4CAF4F;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    transition: 0.2s;
+    color: #FFFFFF;
+
+}
+
+.site button:hover{
+    transform: scale(1.1);
+}
+
+
+.home1
+{
+    background-color: #F5F7FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5%;
+    padding:2%;
+    width: 100%;
+    
+}
+
+
+.home1 h3{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+.home1 h2{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #4CAF4F;
+}
+
+.helpfeature
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.helpfeature ul{
+    list-style-type: none;
+}
+.helpfeature ul li 
+{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.customers {
+    background-color: #F5F7FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding:8rem;
+
+}
+.customers  img
+{
+    height: 200px;
+    width: 200px;
+}
+
+.customers h3{
+    color:   #4CAF4F;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    padding:10px 0px 10px 0px;
+}
+.customers p{
+    color: #717171;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 1.6;
+    
+}
+
+.customers ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    gap: 2rem;
+}
+
+.customers ul li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    color: #4CAF4F;
+}
+
+.customers ul li img{
+    height: 20px;
+    width:20px;
+}
+
+.marketing
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.marketing .market1 h3{
+    color: #4D4D4D;
+     font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.6;
+}
+.marketing .market1 p
+{
+  color: #4D4D4D;
+     font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: scale(0.7);
+}
+
+.feature
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2%;
+    /* margin-left: -15rem; */
+    /* transform: scale(0.); */
+}
+
+.feature .fea{
+    height: 200px;
+    width: 4~00px;
+    position: absolute;
+    transform: scale(0.8);
+}
+
+.feature .card
+{
+    background-color: #F5F7FA;
+    padding: 50px;
+    width: 350px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    /* top:17rem; */
+    left: 500PX;
+}
+
+.feature .card p{
+
+      color: #4D4D4D;
+     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+
+}
+
+.feature .card a{
+    color: #4CAF4F;
+    text-decoration: none;
+      font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.6;
+    padding-top: 15rem;
+  
+
+}
+
+.feature .card .readmore
+{
+   height: 1.2rem;
+   width: 1.2rem;
+    
+}
 }
 
 
