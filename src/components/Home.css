@@ -447,7 +447,7 @@ margin-left: 12%;
     align-items: center; */
      /* max-width: 397px; */
    
-     overflow-x: hidden;
+     overflow: hidden;
     
 }
  .hero
@@ -662,14 +662,15 @@ margin-left: 40%;
     display: flex;
     justify-content: center;
     align-items:center;
-    padding: 5% 20% 2% 20%;
-    gap:25%;
+    padding: 5% 10% 2% 20%;
+    gap:40%;
   
 }
 
 .site img{
     height:800%;
     width: 800%;
+          transform: scale(1.9);
 }
 /* 
 .site1
@@ -677,19 +678,19 @@ margin-left: 40%;
 margin-left: 12%;    
 } */
 .site h3{
-    font-size: 20px;
+    font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     max-width: 25rem;
     line-height: 1.2;
 }
 
 .site p{
     text-align: justify;
-     font-size: 16px;
+     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
-    line-height: 1.6;
+    line-height: 1.4;
     padding-top: 10px;
 }
 
@@ -701,6 +702,7 @@ margin-left: 12%;
     border: none;
     transition: 0.2s;
     color: #FFFFFF;
+            margin-bottom: 15px;
 
 }
 
@@ -715,7 +717,7 @@ margin-left: 12%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:5%;
+    gap:10px;
     padding:2%;
     width: 100%;
     
@@ -727,18 +729,19 @@ margin-left: 12%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     color: #4D4D4D;
-    padding-left: 20px;
+    padding-left: 15px;
 }
 .home1 h2{
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     color: #4CAF4F;
-    padding-left: 20px;
+    padding-left: 15px;
 }
 .home1 .help p
 {
-     padding-left: 20px; 
+     padding-left: 15px; 
+      font-size: 12px;
 }
 
 .helpfeature
@@ -746,11 +749,12 @@ margin-left: 12%;
     display: flex;
     justify-content: space-between;
     font-size: 12px;
+    margin-right: 30px;
 }
- /* .helpfeature h3
+ .helpfeature h3
  {
-    padding-right:20px;
- } */
+    margin-left: -18px;
+ }
 .helpfeature ul{
     list-style-type: none;
 }
@@ -758,7 +762,11 @@ margin-left: 12%;
 {
     display: flex;
     gap: 8px;
-    padding: 20px;
+    padding: 10px;
+}
+.helpfeature ul li  img
+{
+    padding: 0px;
 }
 
 .customers {
@@ -766,31 +774,36 @@ margin-left: 12%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    padding:8rem;
+    gap: 5px;
+    padding:20px;
+    /* width: fit-content; */
 
 }
 .customers  img
 {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
+    padding-left: 40px;
 }
 
 .customers h3{
     color:   #4CAF4F;
-    font-size: 28px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 1.2;
-    padding:10px 0px 10px 0px;
+    padding:5px 0px 5px 0px;
+    margin-left: 100px;
 }
 .customers p{
     color: #717171;
-    font-size: 16px;
+    font-size: 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     line-height: 1.6;
-    
+    max-width: 200px;
+    margin-left: 100px;
+    text-align: justify;
 }
 
 .customers ul{
@@ -799,6 +812,17 @@ margin-left: 12%;
     align-items: center;
     padding-top: 20px;
     gap: 2rem;
+    transform: scale(0.5);
+
+}
+.cust
+{
+    margin-left: -100px;
+}
+
+.cimage
+{
+            margin-left: 150px;
 }
 
 .customers ul li{
@@ -821,18 +845,18 @@ margin-left: 12%;
 }
 
 .marketing .market1 h3{
-    color: #4D4D4D;
-     font-size: 48px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    line-height: 1.6;
+   color: #4D4D4D;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        line-height: 1.4;
 }
 .marketing .market1 p
 {
   color: #4D4D4D;
-     font-size: 18px;
+     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 1.6;
     justify-content: center;
     align-items: center;

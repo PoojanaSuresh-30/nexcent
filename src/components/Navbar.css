@@ -85,12 +85,12 @@
     background-color: #ffffff;
     height: 40px;
     width: 100%;
-        overflow-x: hidden;
+        overflow: hidden;
 }
 
 .navbar .logo
 {
-    margin-left: -50px;
+    margin-left: -30px;
     transform: scale(0.4);
     max-width: 60px;
     padding-right: 10%;
@@ -110,7 +110,7 @@
 
 .navbar .links
 {
-    margin-right:400px;
+    margin-right:380px;
     /* padding-top: 2%;      */
 }
 
