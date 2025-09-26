@@ -447,7 +447,7 @@ margin-left: 12%;
     align-items: center; */
      /* max-width: 397px; */
    
-     overflow: hidden;
+     overflow:hidden;
     
 }
  .hero
@@ -457,7 +457,7 @@ margin-left: 12%;
       width: fit-content;
     /* justify-content: center;
     align-items: center; */
-    gap: 10px;
+    gap: 5px;
     padding: 10%;
      width:fit-content;
 
